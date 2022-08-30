@@ -1,5 +1,4 @@
 const transacoes = {
-    saldo: 0,
     transacoes:[]
   }
 
