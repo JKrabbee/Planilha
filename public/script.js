@@ -82,7 +82,7 @@ function adicionarReceita() {
 // exibirFinancas();
 
 function setSaldo(saldo) {
-  document.getElementById('saldo').innerHTML = `Saldo: R$ ${saldo}`;
+  document.getElementById('saldo').innerHTML = `Saldo: ${formatarValor(saldo)}`;
 }
 
 function adicionaTransacoes(transacoes) {
